@@ -58,7 +58,7 @@ def play_action():
 def hit_action():
     deal(p2)
     player_text.insert(END, make_card(p2[len(p2)-2],p2[len(p2)-1]),'\n')
-    if get_value(p2) > 21:
+    if get_value(p2) >= 21:
         finish_game()
 
 def stand_action():
