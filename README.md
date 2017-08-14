@@ -1,5 +1,4 @@
 # Blackjack
-### Python demonstration
 
 Single player Blackjack game with GUI.
 
